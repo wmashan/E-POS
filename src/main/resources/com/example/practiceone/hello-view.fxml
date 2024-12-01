@@ -54,5 +54,15 @@
             <Font name="Apple SD Gothic Neo Bold" size="49.0" />
          </font>
       </Label>
+      <Label layoutX="327.0" layoutY="212.0" prefHeight="64.0" prefWidth="278.0" text="test repo" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Apple SD Gothic Neo Bold" size="49.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="334.0" prefHeight="64.0" prefWidth="278.0" text="test repo" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Apple SD Gothic Neo Bold" size="49.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
