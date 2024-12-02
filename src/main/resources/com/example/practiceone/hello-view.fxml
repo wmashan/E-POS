@@ -2,52 +2,89 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="DARKEN" fill="DODGERBLUE" height="523.0" layoutX="7.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="210.0" />
-      <Label layoutX="76.0" layoutY="34.0" text="ePOS" textAlignment="CENTER" textFill="WHITE">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="DARKEN" fill="#1f88ff" height="689.0" layoutX="7.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="329.0" />
+      <Label layoutX="110.0" layoutY="51.0" text="ePOS" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="30.0" />
+            <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="155.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Invoice">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="211.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Invoice">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="205.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Good Recieve">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="270.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Good Recieve">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="253.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Good Issue">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="326.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Good Issue">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="304.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Faulty Return">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="383.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Faulty Return">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="351.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Reports">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="441.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Reports">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="80.0" layoutY="474.0" mnemonicParsing="false" text="Log Out">
+      <Button blendMode="OVERLAY" layoutX="109.0" layoutY="631.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Log Out">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
-      <Button blendMode="OVERLAY" layoutX="55.0" layoutY="105.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="115.0" text="Stock Analysis">
+      <Button blendMode="OVERLAY" layoutX="97.0" layoutY="154.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Stock Analysis">
          <font>
-            <Font name="Biome W01 SemiBold" size="12.0" />
+            <Font name="Biome W01 SemiBold" size="16.0" />
          </font>
       </Button>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-analyze-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-invoice-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-borrow-book-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-issue-40.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-return-book-40.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="44.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-reports-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="58.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/icons8-log-out-48.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>
